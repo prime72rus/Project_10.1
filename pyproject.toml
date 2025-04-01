@@ -8,11 +8,16 @@ packages = [{include = "project_10"}]
 
 [tool.poetry.dependencies]
 python = "^3.13"
+freezegun = "^1.5.1"
+pandas = "^2.2.3"
+psycopg2 = "^2.9.10"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
 pytest-cov = "^6.0.0"
+graphviz = "^0.20.3"
+requests = "^2.32.3"
 
 
 [tool.poetry.group.lint.dependencies]
